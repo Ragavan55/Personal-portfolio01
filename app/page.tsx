@@ -52,7 +52,7 @@ export default function Home() {
   
         <section id="home" className="flex flex-col md:flex-row justify-between items-center w-full max-w-6xl gap-10 mt-15 pt-15">
         <div className="home-left flex flex-col gap-0">
-            <h6 className="text-lg md:text-2xl font-semibold mb-1 text-pink-400 ">Hi,I'm</h6>
+            <h6 className="text-lg md:text-2xl font-semibold mb-1 text-pink-400 ">Hi,I&apos;m</h6>
             <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-1">
               Ragavan <br className="hidden md:block" /> Aruchamy
             </h1>
@@ -62,7 +62,7 @@ export default function Home() {
               <button className="px-4 py-2 bg-transparent border-2 rounded hover:bg-indigo-700">Resume</button>
             </Link>
             <Link href="#Contact" className="">
-              <button className="px-5 py-2 bg-transparent border-2 rounded hover:bg-indigo-700 whitespace-nowrap">Let's Talk</button>
+              <button className="px-5 py-2 bg-transparent border-2 rounded hover:bg-indigo-700 whitespace-nowrap">Let&apos;s Talk</button>
             </Link>
           </div>
         </div>
